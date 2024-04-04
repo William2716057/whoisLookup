@@ -1,7 +1,12 @@
 
 import whois
 
-res = whois.whois("website") #enter website here
+#uncomment to list details of multiple sites
+#sites = ["exampl1.com", "example2.com", "example3.com"]
+#companies = [whois.whois(s).org for s in sites]
+#print(companies)
+
+res = whois.whois("example.com") #enter website here
 
 print(res)
 #uncomment and adjust to specify values to return
