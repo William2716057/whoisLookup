@@ -1,6 +1,6 @@
 
 import whois
 
-res = whois.whois("website")
+res = whois.whois("website") #enter website here
 
 print(res)
